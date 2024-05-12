@@ -1,0 +1,83 @@
+accelerate==0.29.3
+annotated-types==0.6.0
+anyio==4.3.0
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+Brotli @ file:///tmp/abs_ecyw11_7ze/croots/recipe/brotli-split_1659616059936/work
+certifi @ file:///croot/certifi_1707229174982/work/certifi
+cffi==1.16.0
+chardet==5.2.0
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click @ file:///croot/click_1698129812380/work
+distro==1.9.0
+exceptiongroup==1.2.1
+filelock @ file:///croot/filelock_1700591183607/work
+Flask @ file:///croot/flask_1702980023242/work
+fsspec==2024.3.1
+gmpy2 @ file:///tmp/build/80754af9/gmpy2_1645455532332/work
+h11==0.14.0
+httpcore==1.0.5
+httpx==0.27.0
+huggingface-hub==0.22.2
+idna @ file:///croot/idna_1666125576474/work
+importlib-metadata @ file:///croot/importlib_metadata-suite_1704813515092/work
+inexactsearch==1.0.2
+itsdangerous @ file:///tmp/build/80754af9/itsdangerous_1621432558163/work
+Jinja2 @ file:///croot/jinja2_1706733616596/work
+joblib==1.4.2
+langdetect==1.0.9
+MarkupSafe @ file:///croot/markupsafe_1704205993651/work
+minio==7.2.6
+mkl-fft @ file:///croot/mkl_fft_1695058164594/work
+mkl-random @ file:///croot/mkl_random_1695059800811/work
+mkl-service==2.4.0
+mpmath @ file:///croot/mpmath_1690848262763/work
+networkx @ file:///croot/networkx_1690561992265/work
+numpy @ file:///work/mkl/numpy_and_numpy_base_1682953417311/work
+nvidia-cublas-cu12==12.1.3.1
+nvidia-cuda-cupti-cu12==12.1.105
+nvidia-cuda-nvrtc-cu12==12.1.105
+nvidia-cuda-runtime-cu12==12.1.105
+nvidia-cudnn-cu12==8.9.2.26
+nvidia-cufft-cu12==11.0.2.54
+nvidia-curand-cu12==10.3.2.106
+nvidia-cusolver-cu12==11.4.5.107
+nvidia-cusparse-cu12==12.1.0.106
+nvidia-nccl-cu12==2.20.5
+nvidia-nvjitlink-cu12==12.4.127
+nvidia-nvtx-cu12==12.1.105
+openai==1.28.1
+packaging==24.0
+pandas==2.0.3
+pillow @ file:///croot/pillow_1707233021655/work
+psutil==5.9.8
+pycparser==2.22
+pycryptodome==3.20.0
+pydantic==2.7.1
+pydantic_core==2.18.2
+PySocks @ file:///tmp/build/80754af9/pysocks_1605305779399/work
+pyspellchecker==0.8.1
+python-dateutil==2.9.0.post0
+pytz==2024.1
+PyYAML @ file:///croot/pyyaml_1698096049011/work
+regex==2024.4.16
+requests @ file:///croot/requests_1707355572290/work
+safetensors==0.4.3
+scikit-learn==1.3.2
+scipy==1.10.1
+silpa-common==0.3
+six==1.16.0
+sniffio==1.3.1
+soundex==1.1.3
+spellchecker==0.4
+sympy @ file:///croot/sympy_1701397643339/work
+threadpoolctl==3.5.0
+tokenizers==0.19.1
+torch==2.3.0
+torchaudio==2.3.0
+torchvision==0.18.0
+tqdm==4.66.2
+transformers==4.40.1
+triton==2.3.0
+typing_extensions==4.11.0
+tzdata==2024.1
