@@ -81,7 +81,7 @@ def expand_contractions(text, contractions_dict):
 
 
 def preprocess_text(text):
-
+    print("Preprocessing data")
     text = expand_contractions(text, contractions_dict)
     text = remove_emojis(text)
     # Remove URLs, user tags, and non-alphanumeric characters
@@ -275,8 +275,9 @@ def get_max_length(raw_data):
 
 
 def process_raw_data(raw_data_filepath, tokenizer):
+    print("Processing raw data")
     raw_data = pd.read_csv(raw_data_filepath)
-    with ProcessPoolExecutor(max_workers=61) as executor:
+    with ProcessPoolExecutor(max_workers=32) as executor:
         results = list(executor.map(preprocess_text, raw_data['text']))
     raw_data['processed_text'] = results
     raw_data.dropna(subset=['processed_text'], inplace=True)
