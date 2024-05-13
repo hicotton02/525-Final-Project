@@ -320,9 +320,9 @@ def main():
             raw_data = process_raw_data(raw_data_filepath, tokenizer)
             raw_data.to_csv(preprocessed_data_filepath, index=False)
         raw_data = pd.read_csv(preprocessed_data_filepath)
-        raw_data = process_token_lengths(raw_data, tokenizer)
-        max_length = get_max_length(raw_data)
-        print(f"The maximum length of text is: {max_length}")
+        #raw_data = process_token_lengths(raw_data, tokenizer)
+        #max_length = get_max_length(raw_data)
+        #print(f"The maximum length of text is: {max_length}")
         pairs = convert_to_qa(raw_data)
         save_data(pairs, preprocessed_pkl_filepath)
 
